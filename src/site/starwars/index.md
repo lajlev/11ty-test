@@ -1,5 +1,5 @@
 # Star Wars Films
 
 {% for movie in starwarsMovies %}
-  [{{ movie.title }}](/starwars/{{ movie.title | slug | url }} )
+  [{{ movie.title }}]( {{ movie.title | slug | prepend: '/starwars/' | url }} )
 {% endfor %}
