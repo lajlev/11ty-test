@@ -1,3 +1,6 @@
+---
+layout: layouts/base.html
+---
 # Star Wars Films
 
 {% for movie in starwarsMovies %}
