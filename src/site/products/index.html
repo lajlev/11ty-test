@@ -1,0 +1,10 @@
+---
+layout: layouts/base.html
+title: "Køb abonnement til vejhjælp"
+---
+<h1>{{ title }}</h1>
+<ul>
+  {% for product in collections.products %}
+    <li><a href="{{ product.url }}">{{ product.data.title }}</a></li>
+  {% endfor %}
+</ul>
