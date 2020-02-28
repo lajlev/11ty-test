@@ -5,7 +5,7 @@ title: "Køb abonnement til vejhjælp"
 <h1>{{ title }}</h1>
 <ul>
   {% for product in collections.products %}
-    <li><a href="{{ product.url }}">{{ product.data.title }}</a></li>
+    <li><a href="{{ product.url | url }}">{{ product.data.title }}</a></li>
 
     <h3>Fordele</h3>
     

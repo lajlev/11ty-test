@@ -7,8 +7,8 @@ title: "Velkommen til SOS Dansk Autohjælp"
 <h2>Køb abonnement</h2>
 <ul>
 {% for product in collections.products %}
-  <li><a href="{{ product.url }}">{{ product.data.title }}</a></li>
+  <li><a href="{{ product.url | url }}">{{ product.data.title }}</a></li>
 {% endfor %}
 </ul>
 
-<a href="/products">Læs mere om abonnementer</a>
+<a href="{{ '/products' | url }}">Læs mere om abonnementer</a>
