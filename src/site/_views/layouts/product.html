@@ -11,6 +11,6 @@ layout: layouts/base.html
 <h2>Se andre abonnementer</h2>
 <div class="products">
 {% for product in collections.products %}
-  <li><a href="{{ product.url }}">{{ product.data.title }}</a></li>
+  <li><a href="{{ product.url | url }}">{{ product.data.title }}</a></li>
 {% endfor %}
 </div>
