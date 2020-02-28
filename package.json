@@ -2,6 +2,7 @@
   "name": "11ty-starter",
   "version": "0.1.0",
   "dependencies": {
-    "@11ty/eleventy": "^0.10.0"
+    "@11ty/eleventy": "^0.10.0",
+    "node-fetch": "^2.6.0"
   }
 }
