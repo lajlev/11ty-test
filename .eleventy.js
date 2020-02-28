@@ -22,6 +22,7 @@ module.exports = config => {
     },
     templateFormats: ["html", "md"],
     htmlTemplateEngine: "liquid",
-    markdownTemplateEngine: "liquid"
+    markdownTemplateEngine: "liquid",
+    pathPrefix: "/11ty-test/"
   }
 }
