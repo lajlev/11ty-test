@@ -2,7 +2,7 @@
 layout: layouts/product.html
 title: BASIS - Op til 2500kg
 price: 69
-selling_points: 
+selling_points:
   - Alt fra Starter samt
   - Fri vidererejse
   - Frit værkstedsvalg

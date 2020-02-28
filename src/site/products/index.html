@@ -3,11 +3,16 @@ layout: layouts/base.html
 title: "Køb abonnement til vejhjælp"
 ---
 <h1>{{ title }}</h1>
-<ul>
-  {% for product in collections.products %}
-    <li><a href="{{ product.url | url }}">{{ product.data.title }}</a></li>
 
-    <h3>Fordele</h3>
-    
+{% for product in collections.products %}
+  <a href="{{ product.url | url }}">{{ product.data.title }}</a>
+
+  <h5>Fordele</h5>
+  <ul>
+  {% for item in product.data.selling_points %}
+  <li>{{ item }}</li>
   {% endfor %}
 </ul>
+<hr>
+{% endfor %}
+
