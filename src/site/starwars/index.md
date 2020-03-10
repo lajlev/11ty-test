@@ -1,8 +1,8 @@
 ---
 layout: layouts/base.html
 ---
-# Star Wars Films
+## Test
 
-{% for movie in starwarsMovies %}
-  [{{ movie.title }}]( {{ movie.title | slug | prepend: '/starwars/' | url }} )
+{% for movie in starwars %}
+  [{{ movie.title }}]({{ movie.title | slug }})
 {% endfor %}

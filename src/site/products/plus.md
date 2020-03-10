@@ -1,7 +1,7 @@
 ---
 layout: layouts/product.html
 title: PLUS - Op til 2500kg
-price: 49
+price: 69
 selling_points:
   - Alt fra Basis samt
   - Europadækning (Europa)

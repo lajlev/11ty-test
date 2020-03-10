@@ -1,0 +1,11 @@
+backend: 
+  repo: lajlev/dah_dk-content
+
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "_"
+
+collections:
+  - name: posts
+    identifier_field: name
