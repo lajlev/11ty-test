@@ -1,6 +1,11 @@
 {
   "name": "11ty-starter",
   "version": "0.1.0",
+  "scripts": {
+    "serve": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
+  },
   "dependencies": {
     "@11ty/eleventy": "^0.10.0",
     "axios": "^0.19.2",
